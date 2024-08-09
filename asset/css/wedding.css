@@ -1,0 +1,1882 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: ui-monospace;
+}
+.main {
+    background-color: bisque;
+}
+
+.home a {
+    color: white;
+    text-decoration: none;
+}
+
+.headcont1 {
+    display: flex;
+    height: 50px;
+    column-gap: 297px;
+    width: 100%;
+    font-weight: 600;
+    align-items: center;
+    background-color: rgb(188 203 217);
+    justify-content: space-around;
+}
+
+.headpart1 {
+    display: flex;
+    column-gap: 42px;
+}
+
+.headpart2 {
+    display: flex;
+    column-gap: 42px;
+}
+
+.headtag {
+    display: flex;
+    column-gap: 18px;
+}
+
+.headtag1:hover,
+.headtag3:hover,
+.headtag5:hover {
+    color: rgb(221, 14, 14);
+}
+
+.headicon {
+    display: flex;
+    column-gap: 15px;
+}
+
+.fb i {
+    font-size: 14px;
+}
+/* toggle start here */
+.btn-primary{
+    display: none;
+}
+/* toggle end here */
+.headcont2 {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100px;
+    color: white;
+    background-color: black;
+    align-items: center;
+}
+
+.headcont2sec2 {
+    display: flex;
+    column-gap: 40px;
+}
+
+.headcont2sec3 {
+    display: flex;
+    column-gap: 25px;
+}
+
+.home {
+    position: relative;
+    letter-spacing: 2px;
+}
+
+.home::before {
+    content: "";
+    height: 5px;
+    width: 5px;
+    top: 7px;
+    left: -11px;
+    border-radius: 50%;
+    border: 1px solid;
+    position: absolute;
+}
+
+.home:hover {
+    color: blue;
+}
+
+.home:hover::before {
+    background-color: red;
+}
+
+.qutionsbtn button {
+    height: 50px;
+    width: 150px;
+    color: white;
+    border: 1px solid blueviolet;
+    background-color: blueviolet;
+    transition: 2s;
+}
+
+.qutionsbtn:hover button {
+    background-color: maroon;
+}
+
+.menutag {
+    letter-spacing: 2px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    transition: 2s;
+}
+
+.menutag:hover {
+    color: springgreen;
+}
+
+.con2 {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.con2 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    animation-name: store;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes store {
+    0% {
+        width: 100%;
+    }
+
+    100% {
+        width: 110%;
+    }
+}
+
+.merriageinfo {
+    top: 51px;
+    right: 100px;
+    font-weight: 600;
+    color: black;
+    position: absolute;
+}
+
+.merriageinfo1 {
+    font-size: 67px;
+    letter-spacing: 2px;
+}
+
+.merriageinfo5 {
+    width: 170px;
+}
+
+.merriageinfo5 button {
+    height: 58px;
+    color: white;
+    width: 170px;
+    margin-top: 22px;
+    background-color: black;
+    transition: 1s;
+}
+
+.merriageinfo5:hover button {
+    background-color: blueviolet;
+    border: 1px solid blueviolet;
+}
+
+.merriageinfo2 {
+    font-size: 25px;
+}
+
+.merriageinfo3 {
+    font-size: 57px;
+}
+
+.merriageinfo4 {
+    font-size: 55px;
+    margin-top: 16px;
+}
+
+.cont3 {
+    margin: 80px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    background-color: rgb(188 203 217);
+}
+
+.bends {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 13px;
+    margin-left: 20px;
+}
+
+.bends h6 {
+    font-size: 20px;
+}
+
+.bends h1 {
+    font-size: 40px;
+}
+
+.bends p {
+    font-size: 22px;
+}
+
+.bends button {
+    color: white;
+    width: 170px;
+    height: 55px;
+    margin-top: 24px;
+    border: 1px solid brown;
+    background-color: brown;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.bends button:hover {
+    background-color: rgb(175, 20, 175);
+    border: 1px solid magenta;
+    color: black;
+}
+
+.con3 {
+    height: 500px;
+    width: 0px;
+    transition: 5s;
+    border: 10px solid rgb(188 203 217);
+    /* animation-name: run2; */
+    /* animation-duration: 3s; */
+    position: relative;
+}
+
+.con3 img {
+    height: 100%;
+    width: 100%;
+}
+
+.con3.active {
+    width: 639px;
+}
+
+body {
+    animation-timeline: initial;
+}
+
+.connn {
+    height: 550px;
+    width: 100%;
+}
+
+.miniimg {
+    position: absolute;
+    height: 219px;
+    width: 246px;
+    right: 14px;
+    border: 10px solid rgb(188 203 217);
+    bottom: 16px;
+}
+
+.miniimg img {
+    height: 100%;
+    width: 100%;
+}
+
+.cont4 {
+    text-align: center;
+}
+
+.cont4part1 {
+    animation-name: test2;
+    animation-duration: 4s;
+}
+
+@keyframes test2 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.cont4part1 h6 {
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(207, 65, 65);
+}
+
+.cont4part1 p {
+    font-size: 40px;
+}
+
+.cont4round {
+    height: 385px;
+    width: 338px;
+    line-height: 41px;
+    color: black;
+    border: 10px solid black;
+    border-radius: 52%;
+    background-color: rgb(169 118 216);
+}
+
+.cont4part2.active {
+    transform: scale(1);
+}
+
+.cont4part2 {
+    display: flex;
+    padding: 84px 0px;
+    transform: scale(0);
+    transition: 5s;
+    column-gap: 82px;
+    justify-content: center;
+}
+
+.cont4round1 img {
+    height: 144px;
+    width: 146px;
+}
+
+.cont4round1 {
+    height: 150px;
+    width: 145px;
+    position: relative;
+    bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100px;
+    background-color: white;
+    border: 3px solid black;
+}
+
+.cont4round2 {
+    font-size: 30px;
+    color: black;
+    font-weight: 600;
+}
+
+.cont4round3 {
+    font-size: 23px;
+    color: brown;
+}
+
+.cont4round4 {
+    color: white;
+    padding: 0px 20px;
+}
+
+.cont5part1 {
+    text-align: center;
+    line-height: 40px;
+}
+
+.cont5part1 h6 {
+    font-size: 20px;
+    color: brown;
+}
+
+.cont5part1 p {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.cont5part2 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-top: 301px;
+    padding-bottom: 60px;
+    justify-content: center;
+    display: flex;
+    background-color: #5e5757;
+}
+
+.cont5part2img {
+    height: 550px;
+    width: 0px;
+    bottom: 323px;
+    position: absolute;
+    transition: 4s;
+    /* animation-name: demo3; */
+    /* animation-duration: 4s; */
+}
+
+.cont5part2img.active {
+    width: 1042px;
+}
+
+.butterfly img {
+    height: 180px;
+    width: 140px;
+    position: absolute;
+}
+
+/* @keyframes demo3{
+    0%{width: 0px;}
+    100%{width: 1042px;}
+ } */
+.cont5part2img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.wedding-year,
+.celebration-year,
+.flower-bouquest,
+.sunny-days {
+    height: 180px;
+    border: 5px solid black;
+    width: 180px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 0 20px;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+}
+.wedding-year p, .celebration-year p, .flower-bouquest p, .sunny-days p{
+    margin-bottom: 0;
+}
+.wedding-year h4, .celebration-year h4, .flower-bouquest h4, .sunny-days h4{
+    text-align: center;
+    font-size: 20px;
+}
+#count,
+#count1,
+#count2,
+#count3 {
+    font-size: 60px;
+    font-family: fantasy;
+    color: brown;
+}
+.cont5mini {
+    margin-top: 396px;
+    column-gap: 75px;
+    display: flex;
+}
+
+.paragraf-anima {
+    padding: 30px 0;
+    width: 100%;
+    background-color: pink;
+    overflow: hidden;
+}
+
+.parag {
+    width: 910px;
+    display: flex;
+    font-size: 13px;
+    white-space: nowrap;
+    /* align-items: center; */
+    /* align-content: flex-start; */
+    position: relative;
+    column-gap: 40px;
+    /* flex-wrap: wrap; */
+    animation: stone 6s linear infinite;
+
+}
+
+.parag p{
+    margin-bottom: 0;
+}
+@keyframes stone {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(-50%, 0, 0);
+    }
+}
+
+.cont6 {
+    display: flex;
+    padding-top: 100px;
+    justify-content: center;
+}
+
+.cont6mini {
+    width: 84%;
+}
+
+.cont6mini2 {
+    width: 601px;
+}
+
+.everyone {
+    font-size: 20px;
+    color: brown;
+}
+
+.studio {
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+.cont6mini3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    position: relative;
+    column-gap: 20px;
+}
+
+.coon6img1 {
+    height: 604px;
+    width: 720px;
+    overflow: hidden;
+}
+
+.coon6img1 img:hover {
+    height: 615px;
+    width: 720px;
+}
+
+/* @keyframes rannet2{
+    0%{width: 0px;}
+    100%{width: 100%;}
+} */
+.coon6img1 img {
+    height: 100%;
+    width: 0px;
+    object-fit: cover;
+    transition: 4s;
+    /* animation-name: rannet2; 
+     animation-duration: 4s;  */
+}
+
+.coon6img1 img.active {
+    width: 720px;
+}
+
+.coon6img2,
+.coon6img3 {
+    height: 290px;
+    width: 400px;
+    overflow: hidden;
+}
+
+.coon6img3 {
+    margin-top: 20px;
+}
+
+.coon6img2 img {
+    height: 100%;
+    width: 0px;
+    object-fit: cover;
+    transition: 4s;
+    /* animation-name: rannet3; */
+    /* animation-duration: 4s; */
+}
+
+.coon6img2 img:hover,
+.coon6img3 img:hover {
+    height: 305px;
+    width: 410px;
+}
+
+.coon6img2 img.active {
+    width: 400px;
+}
+
+/* @keyframes rannet3{
+    0%{width: 0px;}
+    100%{width: 400px;}
+} */
+.coon6img3 img {
+    height: 100%;
+    width: 0px;
+    object-fit: cover;
+    transition: 4s;
+    /* animation-name: rannet3; */
+    /* animation-duration: 4s; */
+}
+
+.coon6img3 img.active {
+    width: 400px;
+}
+
+.cont7 {
+    display: flex;
+    padding: 100px 0px;
+    justify-content: center;
+}
+
+.cont7sec1 {
+    color: brown;
+    text-align: center;
+}
+
+.cont7sec2 {
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 40px;
+    color: rgb(75, 39, 39);
+}
+
+.cont7sec3 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    column-gap: 41px;
+}
+
+.cont7section {
+    width: 84%;
+}
+
+.cont7img {
+    height: 186px;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.cont7img img {
+    width: 100%;
+    height: 100%;
+}
+
+.cont7img img:hover {
+    height: 240px;
+    width: 240px;
+}
+
+.cont7box {
+    padding: 15px;
+    width: 221px;
+    border: 1px solid rgb(155, 149, 149);
+    transition: 4s;
+    transform: skewY(10deg)
+}
+
+.cont7box2 {
+    padding: 15px;
+    width: 221px;
+    border: 1px solid rgb(155, 149, 149);
+    transition: 4s;
+   transform: skewY(10deg)
+}
+
+.cont7box.active {
+    transform: skewY(0deg)
+}
+
+.cont7box2.active {
+    transform: skewY(0deg)
+}
+
+
+.dolor {
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 15px;
+    color: gray;
+}
+
+.weds-dress {
+    font-size: 28px;
+    margin-top: 15px;
+}
+
+.stars {
+    color: #ecc90f;
+    margin-top: 18px;
+}
+
+.cont8 {
+    width: 100%;
+    height: 950px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.cont8 img {
+    height: 100%;
+    width: 100%;
+}
+
+.cont8sec2 {
+    width: 82%;
+    position: absolute;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 121px;
+    background-color: rgba(0, 0, 0, 0.281);
+}
+
+.formsdata {
+    background-color: bisque;
+    height: 510px;
+    width: 900px;
+    transition: 4s;
+    transform: rotateY(360deg);
+}
+
+.formsdata.active {
+    transform: rotateY(0deg);
+}
+
+.formtag1 {
+    text-align: center;
+    font-size: 21px;
+    text-decoration: underline black;
+    letter-spacing: 3px;
+    margin-top: 36px;
+}
+
+.formtag2 {
+    text-align: center;
+    margin-top: 11px;
+    color: brown;
+    font-family: fantasy;
+    font-size: 42px;
+    text-decoration: underline black;
+}
+
+.customer {
+    width: 721px;
+    margin-left: auto;
+    margin-top: 30px;
+    margin-right: auto;
+    height: 272px;
+
+}
+
+.formtwodata {
+    display: flex;
+    column-gap: 20px;
+}
+
+.formthreedat {
+    display: flex;
+    column-gap: 20px;
+    margin-top: 33px;
+}
+
+.fullname input {
+    height: 60px;
+    padding-left: 20px;
+    width: 330px;
+}
+
+.emaildata input {
+    height: 60px;
+    padding-left: 20px;
+    width: 323px;
+}
+
+.bookingdate input {
+    height: 60px;
+    width: 209px;
+    padding-left: 20px;
+}
+
+.num-guest input {
+    height: 60px;
+    width: 200px;
+    padding-left: 20px;
+}
+
+.meal-performance input {
+    height: 60px;
+    width: 200px;
+    padding-left: 20px;
+}
+
+.formbutton button {
+    height: 60px;
+    width: 170px;
+    color: white;
+    border: 1px solid blue;
+    background-color: cornflowerblue;
+}
+
+.formbutton button:hover {
+    background-color: blue;
+}
+
+.formbutton {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.cont9 {
+    padding: 100px 0px;
+}
+
+.testimon {
+    text-align: center;
+    margin-top: 6px;
+    text-decoration: underline;
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+
+.feedbacks {
+    text-align: center;
+    font-size: 24px;
+    color: brown;
+    letter-spacing: 3px;
+}
+
+.custfeedback {
+    display: flex;
+    margin-top: 30px;
+    column-gap: 30px;
+    justify-content: center;
+}
+
+.william {
+    height: auto;
+    background-color: darkgray;
+    padding: 30px;
+    width: 350px;
+}
+
+.william:hover {
+    background-color: rgb(170, 39, 39);
+}
+
+.williamimg img {
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+}
+
+.william2 {
+    text-align: center;
+    opacity: 0;
+    margin-top: 200px;
+    transition: 4s;
+}
+
+.william2.active {
+    opacity: 1;
+    margin-top: 0px;
+}
+
+.william3 {
+    text-align: center;
+    opacity: 0;
+    margin-top: 200px;
+    transition: 4s;
+
+}
+
+.william3.active {
+    opacity: 1;
+    margin-top: 0px;
+}
+
+.william4 {
+    text-align: center;
+    opacity: 0;
+    margin-top: 200px;
+    transition: 4s;
+}
+
+.william4.active {
+    opacity: 1;
+    margin-top: 0px;
+}
+
+.william-tag1 {
+    margin-top: 20px;
+    font-size: 27px;
+    color: white;
+}
+
+.william-tag2 {
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.william-pra {
+    font-size: 18px;
+    margin-top: 21px;
+    color: white;
+}
+
+/* footer start here */
+footer {
+    background-color: burlywood;
+}
+
+.footsec1 {
+    padding: 23px  20px;
+    display: flex;
+    border-bottom: 1px solid rgb(161, 159, 159);
+    justify-content: space-between;
+}
+
+.footicon {
+    display: flex;
+    column-gap: 11px;
+}
+
+.footfb,
+.footinsta,
+.foottwiter,
+.footlinked {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.footfb:hover,
+.footinsta:hover,
+.foottwiter:hover,
+.footlinked:hover {
+    background-color: maroon;
+    color: white;
+}
+
+.footsec2 {
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footinfo {
+    display: flex;
+    column-gap: 132px;
+    justify-content: center;
+}
+
+.contact {
+    display: flex;
+    row-gap: 17px;
+    flex-direction: column;
+}
+
+.contacttag {
+    font-size: 36px;
+}
+
+.contact1,
+.contact2,
+.footemail,
+.footaddress {
+    font-size: 20px;
+}
+
+.subscrib {
+    display: flex;
+    row-gap: 17px;
+    flex-direction: column;
+}
+
+.subscribtag {
+    font-size: 36px;
+}
+
+.subscribtag2 {
+    font-size: 20px;
+}
+.footinput {
+    width: 100%;
+    background-color: white;
+}
+.footinput input {
+    height: 50px;
+    border: transparent;
+    padding-left: 20px;
+}
+
+.footbtn button {
+    height: 40px;
+    width: 120px;
+    background-color: cornflowerblue;
+}
+
+.footbtn button:hover {
+    background-color: maroon;
+    color: white;
+}
+
+.foottitles {
+    margin: 36px auto;
+    border: 3px solid;
+    padding: 20px 86px;
+}
+
+.footerend {
+    font-size: 23px;
+    text-align: center;
+}
+
+.ovation {
+    font-size: 37px;
+    text-align: center;
+}
+
+/* footer end here */
+@media only screen and (min-width : 320px) and (max-width : 500px) {
+
+    .headpart1,
+    .headtag,
+    .headcont2sec2,
+    .qutionsbtn
+    {
+        display: none;
+    }
+
+    .headcont2 {
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+    .headcont2sec3{
+        display: none;
+    }
+      /* toggle css start here */
+      .btn-primary {
+        display: block;
+       }
+      .offcanvas-body{
+        background-color: #343030ab;
+      }
+      .toggle-tag1 a{
+        color: white;
+        width: 100%;
+        text-align: center;
+        text-decoration: transparent;
+      }
+      .toggle-tag1{
+        width: 100%;
+        margin-top: 20px;
+        height: 40px;
+        display: flex;
+        border-radius: 10px;
+        justify-content: center;
+        align-items: center;
+        background-color: maroon;
+      }
+      /* toggle css end here */
+    .merriageinfo {
+        top: 40px;
+        right: 23px;
+        left: 23px;
+        color: white;
+    }
+
+    .merriageinfo1 {
+        font-size: 35px;
+    }
+
+    .merriageinfo2 {
+        font-size: 21px;
+    }
+
+    .merriageinfo3 {
+        font-size: 39px;
+    }
+
+    .merriageinfo4 {
+        font-size: 30px;
+    }
+
+    .merriageinfo5 button {
+        height: 50px;
+        width: 151px;
+    }
+
+    .cont3 {
+        margin: 80px 0;
+        display: block;
+    }
+
+    .cont3info {
+        padding: 0 20px;
+    }
+
+    .bends {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .con3 {
+        width: 100%;
+        height: 323px;
+
+    }
+    .con3.active {
+        width: fit-content;
+    }
+    .miniimg {
+        height: 148px;
+        width: 170px;
+        bottom: 5px;
+    }
+    .bends button {
+        width: 166px;
+        height: 49px;
+    }
+    .cont4part2 {
+        flex-direction: column;
+    }
+
+    .cont4round {
+        width: 273px;
+        margin: 0 auto;
+    }
+    .cont4round4{
+        padding: 0px 35px;
+    } 
+    .cont5part2 {
+        flex-direction: column;
+        margin-top: 35px;
+        padding-bottom: 0;
+    }
+    .cont5part2img.active {
+        width: 100%;
+    }
+
+    .cont5part2img {
+        bottom: 0;
+        position: inherit;
+        height: 370px;
+    }
+    .cont5mini {
+        margin: 55px auto;
+        display: flex;
+        row-gap: 15px;
+        flex-direction: column; 
+    }
+    .cont6mini2 {
+        text-align: center;
+        width: 100%;
+    }
+    .cont6mini3{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .coon6img1 img:hover {
+        height: 280px;
+    }
+    .coon6img1 img.active {
+        width: 100%;
+    }
+    .coon6img1{
+        height: 250px;
+        width: 100%;
+    }
+    .coon6img2 img:hover{
+        height: 270px;
+    }
+    .coon6img2 img.active {
+        width: 100%;
+    }
+    .coon6img2{
+        width: 100%;
+        height: 250px;
+    }
+    .coon6img3{
+        height: 250px;
+        width: 100%;
+    }
+    .coon6img3 img.active {
+        width: 100%;
+    }
+    .coon6img3 img:hover{
+        height: 270px;
+    }
+    .cont7section {
+        width: 100%;
+    }
+    .cont7sec3{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .cont7box,.cont7box2{
+        margin: 0 auto;
+    }
+    .cont8{
+        height: 607px;
+    }
+    .cont8sec2{
+        height: fit-content;
+        top: 52px;
+    }
+    .customer{
+        width: 100%;
+    }
+    .formsdata{
+        width: 100%;
+    }
+    .fullname input{
+        height: 36px;
+        width: 102px;
+        padding-left: 7px;
+    }
+    .formtwodata{
+        column-gap: 13px;
+        justify-content: center;
+    }
+    .emaildata input{
+        height: 36px;
+        padding-left: 7px;
+        width: 102px;
+    }
+    .bookingdate input {
+        height: 36px;
+        padding-left: 7px;
+        width: 102px;
+    }
+    .formthreedat{
+        column-gap: 12px;
+        row-gap: 12px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .num-guest input {
+        height: 36px;
+        width: 102px;
+        padding-left: 7px;
+    }
+    .meal-performance input {
+        height: 36px;
+        width: 124px;
+        padding-left: 7px;
+    }
+    .formbutton button{
+        height: 44px;
+        width: 149px;
+    }
+    .formbutton{
+        margin-top: 21px;
+    }
+    .cont9{
+        padding: 75px 25px;
+    }
+    .custfeedback{
+        row-gap: 20px;
+        flex-wrap: wrap
+    }
+    /* footer section meadia- query start */
+    .footsec1{
+        padding: 39px 20px;
+        row-gap: 20px;
+        flex-wrap: wrap;
+    }
+    .footinfo{
+        flex-wrap: wrap;
+        row-gap: 34px;
+        justify-content: start;
+    }
+    .foottitles{
+        display: none;
+    }
+    .footerend{
+        margin-top: 35px;
+    }
+    .subscrib{
+        width: 100%;
+    }
+    .footerend{
+        margin-top: 35px;
+        font-size: 23px;
+        text-align: left;
+    }
+    .ovation {
+        font-size: 31px;
+        text-align: left;
+    }
+}
+@media only screen and (min-width : 501px) and (max-width : 768px) {
+
+    .headpart1,
+    .headtag,
+    .headcont2sec2,
+    .qutionsbtn
+    {
+        display: none;
+    }
+
+    .headcont2 {
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+    .headcont2sec3{
+        display: none;
+    }
+      /* toggle css start here */
+      .btn-primary {
+        display: block;
+       }
+      .offcanvas-body{
+        background-color: #343030ab;
+      }
+      .toggle-tag1 a{
+        color: white;
+        width: 100%;
+        text-align: center;
+        text-decoration: transparent;
+      }
+      .toggle-tag1{
+        width: 100%;
+        margin-top: 20px;
+        height: 40px;
+        display: flex;
+        border-radius: 10px;
+        justify-content: center;
+        align-items: center;
+        background-color: maroon;
+      }
+      /* toggle css end here */
+    .merriageinfo {
+        top: 40px;
+        right: 23px;
+        left: 23px;
+        color: white;
+    }
+
+    .merriageinfo1 {
+        font-size: 35px;
+    }
+
+    .merriageinfo2 {
+        font-size: 21px;
+    }
+
+    .merriageinfo3 {
+        font-size: 39px;
+    }
+
+    .merriageinfo4 {
+        font-size: 30px;
+    }
+
+    .merriageinfo5 button {
+        height: 50px;
+        width: 151px;
+    }
+
+    .cont3 {
+        margin: 80px 0;
+        display: block;
+    }
+
+    .cont3info {
+        padding: 0 20px;
+    }
+
+    .bends {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .con3 {
+        width: 81%;
+        height: 323px;
+        margin: 0 auto;
+    }
+    .con3.active {
+        width: 473px;
+    }
+    .miniimg {
+        height: 148px;
+        width: 170px;
+        bottom: 5px;
+    }
+    .bends button {
+        width: 166px;
+        height: 49px;
+    }
+    .cont4part2 {
+        flex-direction: column;
+    }
+    .cont4round4{
+       line-height: 31px;
+       padding: 0px 30px;
+    } 
+    .cont4round {
+        width: 273px;
+        margin: 0 auto;
+    }
+
+    .cont5part2 {
+        flex-direction: column;
+        margin-top: 35px;
+        padding-bottom: 0;
+    }
+    .cont5part2img.active {
+        width: 475px;
+        margin: 46px  auto;
+    }
+
+    .cont5part2img {
+        bottom: 0;
+        position: inherit;
+        height: 370px;
+    }
+    .cont5mini {
+        margin: 55px auto;
+        display: flex;
+        row-gap: 15px;
+        flex-direction: column; 
+    }
+    .cont6mini2 {
+        text-align: center;
+        width: 100%;
+    }
+    .cont6mini3{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .coon6img1 img:hover {
+        height: 382px;
+    }
+    .coon6img1 img.active {
+        width: 475px;
+    }
+    .coon6img1{
+        height: 332px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .coon6img2 img:hover{
+        height: 382px;
+    }
+    .coon6img2 img.active {
+        width: 475px;
+    }
+    .coon6img2{
+        height: 332px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .coon6img3{
+        height: 332px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .coon6img3 img.active {
+        width: 475px;
+    }
+    .coon6img3 img:hover{
+        height: 382px;
+    }
+    .cont7section {
+        width: 100%;
+    }
+    .cont7sec3{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .cont7box,.cont7box2{
+        margin: 0 auto;
+    }
+    .cont8{
+        height: 528px;
+    }
+    .cont8sec2{
+        height: fit-content;
+        top: 52px;
+    }
+    .customer{
+        width: 100%;
+    }
+    .formsdata{
+        width: 100%;
+        height: 420px;
+    }
+    .fullname input{
+        height: 36px;
+        width: 102px;
+        padding-left: 7px;
+    }
+    .formtwodata{
+        column-gap: 13px;
+        justify-content: center;
+    }
+    .emaildata input{
+        height: 36px;
+        padding-left: 7px;
+        width: 102px;
+    }
+    .bookingdate input {
+        height: 36px;
+        padding-left: 7px;
+        width: 102px;
+    }
+    .formthreedat{
+        column-gap: 12px;
+        row-gap: 12px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .num-guest input {
+        height: 36px;
+        width: 102px;
+        padding-left: 7px;
+    }
+    .meal-performance input {
+        height: 36px;
+        width: 124px;
+        padding-left: 7px;
+    }
+    .formbutton button{
+        height: 44px;
+        width: 149px;
+    }
+    .formbutton{
+        margin-top: 21px;
+    }
+    .cont9{
+        padding: 75px 25px;
+    }
+    .custfeedback{
+        row-gap: 20px;
+        flex-wrap: wrap
+    }
+    /* footer section meadia- query start */
+    .footsec1{
+        padding: 39px 20px;
+        row-gap: 20px;
+        flex-wrap: wrap;
+    }
+    .footinfo{
+        flex-wrap: wrap;
+        row-gap: 34px;
+    }
+    .foottitles{
+        display: none;
+    }
+    .footerend{
+        margin-top: 35px;
+    }
+    .subscrib{
+        width: 100%;
+    }
+    .footerend{
+        margin-top: 35px;
+        font-size: 23px;
+        text-align: left;
+    }
+    .ovation {
+        font-size: 31px;
+        text-align: left;
+    }
+}
+@media only screen and (min-width : 769px) and (max-width : 1024px) {
+
+    .headtag,
+    .headcont2sec3,
+    .qutionsbtn
+    {
+        display: none;
+    }
+    .headcont1{
+        column-gap: inherit;
+        width: auto;
+        padding: 0 20px;
+        justify-content: space-between;
+    }
+    .headcont2sec2{
+        column-gap: 27px;
+        font-size: 15px;
+    }
+    .headcont2 {
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+
+    .merriageinfo {
+        top: 40px;
+        right: 23px;
+        left: 23px;
+        color: white;
+    }
+
+    .merriageinfo1 {
+        font-size: 35px;
+    }
+
+    .merriageinfo2 {
+        font-size: 21px;
+    }
+
+    .merriageinfo3 {
+        font-size: 39px;
+    }
+
+    .merriageinfo4 {
+        font-size: 30px;
+    }
+
+    .merriageinfo5 button {
+        height: 50px;
+        width: 151px;
+    }
+
+    .cont3 {
+        margin: 80px 0;
+        display: flex;
+    }
+
+    .cont3info {
+        padding: 20px 20px;
+    }
+
+    .bends {
+        width: 350px;
+        margin-left: 0;
+    }
+
+    .con3 {
+        width: 100%;
+        height: 323px;
+        margin: 0;
+    }
+    .con3.active {
+        width: 473px;
+    }
+    .miniimg {
+        height: 148px;
+        width: 170px;
+        bottom: 5px;
+    }
+    .bends button {
+        width: 166px;
+        height: 49px;
+    }
+    .cont4part2 {
+        flex-wrap: wrap;
+    }
+
+    .cont4round {
+        width: 273px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    .cont5part2 {
+        flex-direction: column;
+        margin-top: 35px;
+        padding-bottom: 0;
+    }
+    .cont5part2img.active {
+        width: 80%;
+        margin: 46px  auto;
+    }
+
+    .cont5part2img {
+        bottom: 0;
+        position: inherit;
+        height: 370px;
+    }
+    .cont5mini {
+        justify-content: center;
+        margin: 55px auto;
+        display: flex;
+        row-gap: 23px;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .cont6mini2 {
+        text-align: center;
+        width: 100%;
+    }
+    .cont6mini3{
+        flex-direction: row;
+        row-gap: 20px;
+    }
+    .coon6img1 img:hover {
+        height: 540px;
+    }
+    .coon6img1 img.active {
+        width: 100%;
+    }
+    .coon6img1{
+        height: 499px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .coon6img2 img:hover{
+        height: 270px;
+    }
+    .coon6img2 img.active {
+        width: 330px;
+    }
+    .coon6img2{
+        height: 240px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .coon6img3{
+        height: 240px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .coon6img3 img.active {
+        width: 330px;
+    }
+    .coon6img3 img:hover{
+        height: 270px;
+    }
+    .cont7section {
+        width: 100%;
+    }
+    .cont7sec3{
+        flex-direction: row;
+        column-gap: 20px;
+        row-gap: 20px;
+        flex-wrap: wrap;
+    }
+    .cont7box,.cont7box2{
+        margin: 0 0;
+    }
+    .cont8{
+        height: 607px;
+    }
+    .cont8sec2{
+        height: fit-content;
+        top: 52px;
+    }
+    .customer{
+        width: 100%;
+    }
+    .formsdata{
+        width: 100%;
+    }
+    .fullname input{
+        height: 36px;
+        width: 102px;
+        padding-left: 7px;
+    }
+    .formtwodata{
+        column-gap: 13px;
+        justify-content: center;
+    }
+    .emaildata input{
+        height: 36px;
+        padding-left: 7px;
+        width: 102px;
+    }
+    .bookingdate input {
+        height: 36px;
+        padding-left: 7px;
+        width: 102px;
+    }
+    .formthreedat{
+        column-gap: 12px;
+        row-gap: 12px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .num-guest input {
+        height: 36px;
+        width: 102px;
+        padding-left: 7px;
+    }
+    .meal-performance input {
+        height: 36px;
+        width: 124px;
+        padding-left: 7px;
+    }
+    .formbutton button{
+        height: 59px;
+        width: 182px;
+    }
+    .formbutton{
+        margin-top: 21px;
+    }
+    .cont9{
+        padding: 75px 25px;
+    }
+    .custfeedback{
+        row-gap: 20px;
+        flex-wrap: wrap
+    }
+    /* footer section meadia- query start */
+    .footsec1{
+        padding: 39px 20px;
+        row-gap: 20px;
+        flex-wrap: wrap;
+    }
+    .footinfo{
+        flex-wrap: wrap;
+        row-gap: 34px;
+    }
+    .foottitles{
+        display: none;
+    }
+    .footerend{
+        margin-top: 35px;
+    }
+    .subscrib{
+        width: 100%;
+    }
+    .footerend{
+        margin-top: 35px;
+        font-size: 23px;
+        text-align: left;
+    }
+    .ovation {
+        font-size: 31px;
+        text-align: left;
+    }
+}
+@media only screen and (min-width : 1025px) and (max-width : 1200px) {
+    
+    .cont8{
+        height: 645px;
+        align-items: center;
+    }
+    .cont8sec2{
+        width: fit-content;
+        height: fit-content;
+        top: inherit;
+    }
+    .headcont1{
+        column-gap: 125px;
+    }
+    .cont5part2img.active {
+      width: 990px;
+    }
+    .cont4round{
+        padding: 0 20px;
+    }
+    .coon6img1 img.active {
+        width: 100%;
+    }
+    .cont7sec3{
+        flex-wrap: wrap;
+        column-gap: 23px;
+        row-gap: 23px;
+    }
+    .custfeedback{
+        padding: 0 20px
+    }
+    .footinfo {
+        display: flex;
+        column-gap: 72px;
+        justify-content: center;
+    }
+}
